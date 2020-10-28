@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <title>Shopping School</title>
+  </head>
+  <body>
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-3 no-padding">
+      <div class="sidebar">
+        <a class="sidebar__logo" href="#">
+          <div class="sidebar__logo-top">Школа шопинга</div>
+          <div class="sidebar__logo-bottom">ShoppingsSchool</div>
+        </a>
+        <div class="sidebar__submenu">
+          <ul class="sidebar__submenu-list">
+            <li class="sidebar__submenu-list-item"><a href="#">Базовый курс</a></li>
+            <li class="sidebar__submenu-list-item"><a href="#">Продвинутый курс</a></li>
+            <li class="sidebar__submenu-list-item"><a href="#">Отдельные уроки</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__menu">
+          <ul class="sidebar__menu-list">
+            <li class="sidebar__menu-list-item"><a href="#">О школе</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Блог</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Пресса</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Отзывы и кейсы</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">F.A.Q.'s</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Smart.rich.b#tch</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__social">
+          <ul class="sidebar__social-list">
+            <li class="sidebar__social-list-item instagram__icon"><a href="#"><img src="img/inst.svg" alt="Instagram"></a></li>
+            <li class="sidebar__social-list-item email__icon"><a href="#"><img src="img/email.svg" alt="Instagram"></a></li>
+          </ul>
+        </div>
+        <div class="sidebar__subscribe">
+          <h3 class="sidebar__subscribe-title">Подписка</h3>
+          <div class="sidebar__subscribe-text">Оставьте ваш e-mail, чтобы получать наши новости</div>
+          <input type="text" class="sidebar__subscribe--input-email" value="Введите ваш email">
+          <button class="sidebar__subscribe-button button__dark">Подписаться</button>
+          <div class="sidebar__subscribe-license">
+            Нажимая кнопку "Подписаться", я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с <a href="#">условиями рассылки рекламной информации</a>
+          </div>
+        </div>
+      </div>
+
+       <div class="mobile__menu">
+        <div class="mobile__menu-button" id="mobile-menu-open">
+          <span class="mobile__menu-button--caption">меню</span>
+          <div class="mobile__menu-button-lines">
+            <div class="mobile__menu-button-line"></div>
+            <div class="mobile__menu-button-line"></div>
+            <div class="mobile__menu-button-line"></div>
+          </div>
+          <div class="mobile__menu-button-close">
+            <img src="img/cancel-menu.svg" alt="Close">
+          </div>
+        </div>
+        <div class="mobile__menu-search-input">
+          <input type="text" value="Введите запрос"><img src="img/cancel-menu.svg" class="close-menu-search">
+        </div>
+        <div class="mobile__menu-logo">
+          <div class="sidebar__logo-top">Школа шопинга</div>
+          <div class="sidebar__logo-bottom">ShoppingsSchool</div>
+        </div>
+        <div class="mobile__menu-search">
+          <img src="img/search.svg" alt="Search">
+        </div>
+      </div>
+
+      <div class="mobile__menu-open">
+          <div class="mobile__menu-content">
+          <div class="sidebar__submenu">
+            <ul class="sidebar__submenu-list">
+              <li class="sidebar__submenu-list-item"><a href="#">Базовый курс</a></li>
+              <li class="sidebar__submenu-list-item"><a href="#">Продвинутый курс</a></li>
+              <li class="sidebar__submenu-list-item"><a href="#">Отдельные уроки</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__menu">
+            <ul class="sidebar__menu-list">
+              <li class="sidebar__menu-list-item"><a href="#">О школе</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Блог</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Пресса</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Отзывы и кейсы</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">F.A.Q.'s</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Smart.rich.b#tch</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__social">
+            <ul class="sidebar__social-list">
+              <li class="sidebar__social-list-item instagram__icon"><a href="#"><img src="img/inst.svg" alt="Instagram"></a></li>
+              <li class="sidebar__social-list-item email__icon"><a href="javascript:PopUpShow()"><img src="img/email.svg" alt="Instagram"></a></li>
+            </ul>
+          </div>
+          <div class="sidebar__subscribe">
+            <h3 class="sidebar__subscribe-title">Подписка</h3>
+            <div class="sidebar__subscribe-text">Оставьте ваш e-mail, чтобы получать наши новости</div>
+            <input type="text" class="sidebar__subscribe--input-email" value="Введите ваш email">
+            <button class="sidebar__subscribe-button button__dark"><a href="javascript:PopUpShow()">Подписаться</a></button>
+            <div class="sidebar__subscribe-license">
+              Нажимая кнопку "Подписаться", я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с <a href="#">условиями рассылки рекламной информации</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-9 content no-padding">
+          <div class="submenu__intro">
+            <div class="submenu__intro-submenu">
+              <div class="submenu__intro-title">Отзывы</div>
+              <ul class="submenu__intro-list">
+                <li class="submenu__intro-list-item submenu__intro-list-item--active"><a href="#">Отзывы</a></li>
+                <li class="submenu__intro-list-item"><a href="#">Инста-отзывы</a></li>
+                <li class="submenu__intro-list-item"><a href="#">Фото клиентов</a></li>
+              </ul>
+            </div>
+            <div class="hero__submenu__search submenu__intro__search">
+              <input type="text" value="Поиск">
+              <img src="img/search_b.svg" alt="Найти">
+            </div>
+          </div>
+          <a class="intro__sales" href="#">
+              Финальные скидки. Купить 
+          </a>
+
+          <div class="submenu__intro--mobile">
+            <div class="submenu__intro-submenu">
+              <div class="submenu__intro-title">Отзывы</div>
+              <ul class="submenu__intro-list mobile-submenu__intro-list">
+                <li class="submenu__intro-list-item submenu__intro--mobile-list-item-active"><a href="#">Отзывы на сайте</a></li>
+                <li class="submenu__intro-list-item"><a href="#">Инста отзывы</a></li>
+                <li class="submenu__intro-list-item"><a href="#">Фото клиенток</a></li>
+              </ul>
+            </div>
+          </div>
+
+      <div class="content__structure">
+        <div class="content__structure-feedback">
+          <div class="row mt-5">
+            <div class="col-sm-12">
+              <div class="content__structure-feedback__name">
+                Юлия Сайфуллина —
+              </div>
+              <div class="content__structure-feedback__teaser">
+                Как же круто разбираться, понимать и делать правильные покупки
+              </div>
+              <div class="content__structure-feedback__text">
+                Таня, читаю Вас по следующим причинам: Высочайший Профессионализм и авторитет. Все по делу, актуально, практично, Вы научите и покажите, что моду можно любить, а не падать в обморок от одной идёт надеть яркое или идти на шопинг. 
+                <br>
+                2. Читать и учиться у Вас очень выгодно. Можно угробить кучу денег и времени на понимание, попытки разобраться, наделать ошибок, а можно инвестировать своё время и средства и получить выжимку от Вас как от классного Эксперта.
+                <br>
+                3. Ваш блог - он не про моду и не про одежду. Он про уважение и любовь к себе как к женщине. Искренне считаю вас Музой                
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-12">
+              <div class="content__structure-feedback__name">
+                Юлия Сайфуллина —
+              </div>
+              <div class="content__structure-feedback__teaser">
+                Как же круто разбираться, понимать и делать правильные покупки
+              </div>
+              <div class="content__structure-feedback__text">
+                Таня, читаю Вас по следующим причинам: Высочайший Профессионализм и авторитет. Все по делу, актуально, практично, Вы научите и покажите, что моду можно любить, а не падать в обморок от одной идёт надеть яркое или идти на шопинг. 
+                <br>
+                2. Читать и учиться у Вас очень выгодно. Можно угробить кучу денег и времени на понимание, попытки разобраться, наделать ошибок, а можно инвестировать своё время и средства и получить выжимку от Вас как от классного Эксперта.
+                <br>
+                3. Ваш блог - он не про моду и не про одежду. Он про уважение и любовь к себе как к женщине. Искренне считаю вас Музой                
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-12">
+              <div class="content__structure-feedback__name">
+                Юлия Сайфуллина —
+              </div>
+              <div class="content__structure-feedback__teaser">
+                Как же круто разбираться, понимать и делать правильные покупки
+              </div>
+              <div class="content__structure-feedback__text">
+                Таня, читаю Вас по следующим причинам: Высочайший Профессионализм и авторитет. Все по делу, актуально, практично, Вы научите и покажите, что моду можно любить, а не падать в обморок от одной идёт надеть яркое или идти на шопинг. 
+                <br>
+                2. Читать и учиться у Вас очень выгодно. Можно угробить кучу денег и времени на понимание, попытки разобраться, наделать ошибок, а можно инвестировать своё время и средства и получить выжимку от Вас как от классного Эксперта.
+                <br>
+                3. Ваш блог - он не про моду и не про одежду. Он про уважение и любовь к себе как к женщине. Искренне считаю вас Музой                
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-12">
+              <div class="content__structure-feedback__name">
+                Юлия Сайфуллина —
+              </div>
+              <div class="content__structure-feedback__teaser">
+                Как же круто разбираться, понимать и делать правильные покупки
+              </div>
+              <div class="content__structure-feedback__text">
+                Таня, читаю Вас по следующим причинам: Высочайший Профессионализм и авторитет. Все по делу, актуально, практично, Вы научите и покажите, что моду можно любить, а не падать в обморок от одной идёт надеть яркое или идти на шопинг. 
+                <br>
+                2. Читать и учиться у Вас очень выгодно. Можно угробить кучу денег и времени на понимание, попытки разобраться, наделать ошибок, а можно инвестировать своё время и средства и получить выжимку от Вас как от классного Эксперта.
+                <br>
+                3. Ваш блог - он не про моду и не про одежду. Он про уважение и любовь к себе как к женщине. Искренне считаю вас Музой                
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-12">
+              <div class="content__structure-feedback__name">
+                Юлия Сайфуллина —
+              </div>
+              <div class="content__structure-feedback__teaser">
+                Как же круто разбираться, понимать и делать правильные покупки
+              </div>
+              <div class="content__structure-feedback__text">
+                Таня, читаю Вас по следующим причинам: Высочайший Профессионализм и авторитет. Все по делу, актуально, практично, Вы научите и покажите, что моду можно любить, а не падать в обморок от одной идёт надеть яркое или идти на шопинг. 
+                <br>
+                2. Читать и учиться у Вас очень выгодно. Можно угробить кучу денег и времени на понимание, попытки разобраться, наделать ошибок, а можно инвестировать своё время и средства и получить выжимку от Вас как от классного Эксперта.
+                <br>
+                3. Ваш блог - он не про моду и не про одежду. Он про уважение и любовь к себе как к женщине. Искренне считаю вас Музой                
+              </div>
+            </div>
+          </div>
+
+        </div>
+        
+              <div class="row mb-5">
+                <div class="col-sm-12">
+                  <a class="blog__ad" href="#">
+
+                  </a>
+                </div>
+              </div>
+
+          <div class="content__structure-feedback">
+            <div class="row mt-4">
+              <div class="col-sm-12">
+                <div class="content__structure-feedback__name">
+                  Юлия Сайфуллина —
+                </div>
+                <div class="content__structure-feedback__teaser">
+                  Как же круто разбираться, понимать и делать правильные покупки
+                </div>
+                <div class="content__structure-feedback__text">
+                  Таня, читаю Вас по следующим причинам: Высочайший Профессионализм и авторитет. Все по делу, актуально, практично, Вы научите и покажите, что моду можно любить, а не падать в обморок от одной идёт надеть яркое или идти на шопинг. 
+                  <br>
+                  2. Читать и учиться у Вас очень выгодно. Можно угробить кучу денег и времени на понимание, попытки разобраться, наделать ошибок, а можно инвестировать своё время и средства и получить выжимку от Вас как от классного Эксперта.
+                  <br>
+                  3. Ваш блог - он не про моду и не про одежду. Он про уважение и любовь к себе как к женщине. Искренне считаю вас Музой                
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-sm-12">
+                <div class="content__structure-feedback__name">
+                  Юлия Сайфуллина —
+                </div>
+                <div class="content__structure-feedback__teaser">
+                  Как же круто разбираться, понимать и делать правильные покупки
+                </div>
+                <div class="content__structure-feedback__text">
+                  Таня, читаю Вас по следующим причинам: Высочайший Профессионализм и авторитет. Все по делу, актуально, практично, Вы научите и покажите, что моду можно любить, а не падать в обморок от одной идёт надеть яркое или идти на шопинг. 
+                  2. Читать и учиться у Вас очень выгодно. Можно угробить кучу денег и времени на понимание, попытки разобраться, наделать ошибок, а можно инвестировать своё время и средства и получить выжимку от Вас как от классного Эксперта.
+                  3. Ваш блог - он не про моду и не про одежду. Он про уважение и любовь к себе как к женщине. Искренне считаю вас Музой                
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-sm-12">
+                <div class="content__structure-feedback__name">
+                  Юлия Сайфуллина —
+                </div>
+                <div class="content__structure-feedback__teaser">
+                  Как же круто разбираться, понимать и делать правильные покупки
+                </div>
+                <div class="content__structure-feedback__text">
+                  Таня, читаю Вас по следующим причинам: Высочайший Профессионализм и авторитет. Все по делу, актуально, практично, Вы научите и покажите, что моду можно любить, а не падать в обморок от одной идёт надеть яркое или идти на шопинг. 
+                  <br>
+                  2. Читать и учиться у Вас очень выгодно. Можно угробить кучу денег и времени на понимание, попытки разобраться, наделать ошибок, а можно инвестировать своё время и средства и получить выжимку от Вас как от классного Эксперта.
+                  <br>
+                  3. Ваш блог - он не про моду и не про одежду. Он про уважение и любовь к себе как к женщине. Искренне считаю вас Музой                
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-sm-12">
+                <div class="content__structure-feedback__name">
+                  Юлия Сайфуллина —
+                </div>
+                <div class="content__structure-feedback__teaser">
+                  Как же круто разбираться, понимать и делать правильные покупки
+                </div>
+                <div class="content__structure-feedback__text">
+                  Таня, читаю Вас по следующим причинам: Высочайший Профессионализм и авторитет. Все по делу, актуально, практично, Вы научите и покажите, что моду можно любить, а не падать в обморок от одной идёт надеть яркое или идти на шопинг. 
+                  <br>
+                  2. Читать и учиться у Вас очень выгодно. Можно угробить кучу денег и времени на понимание, попытки разобраться, наделать ошибок, а можно инвестировать своё время и средства и получить выжимку от Вас как от классного Эксперта.
+                  <br>
+                  3. Ваш блог - он не про моду и не про одежду. Он про уважение и любовь к себе как к женщине. Искренне считаю вас Музой                
+                </div>
+              </div>
+            </div>
+             <div class="row mt-4">
+              <div class="col-sm-12">
+                <div class="content__structure-feedback__name">
+                  Юлия Сайфуллина —
+                </div>
+                <div class="content__structure-feedback__teaser">
+                  Как же круто разбираться, понимать и делать правильные покупки
+                </div>
+                <div class="content__structure-feedback__text">
+                  Таня, читаю Вас по следующим причинам: Высочайший Профессионализм и авторитет. Все по делу, актуально, практично, Вы научите и покажите, что моду можно любить, а не падать в обморок от одной идёт надеть яркое или идти на шопинг. 
+                  <br>
+                  2. Читать и учиться у Вас очень выгодно. Можно угробить кучу денег и времени на понимание, попытки разобраться, наделать ошибок, а можно инвестировать своё время и средства и получить выжимку от Вас как от классного Эксперта.
+                  <br>
+                  3. Ваш блог - он не про моду и не про одежду. Он про уважение и любовь к себе как к женщине. Искренне считаю вас Музой                
+                </div>
+              </div>
+            </div>
+            <div class="row mobile--button--feedback">
+              <button class="button__light">Еще отзывы</button>
+            </div>
+          </div>
+          <div class="content__structure-pagination">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="pagination">
+                  <div class="pagination__pages">
+                    <span><a href="#">1</a></span>
+                    <span><a href="#">2</a></span>
+                    <span><a href="#">3</a></span>
+                    <span><a href="#">4</a></span>
+                    <span><a href="#">5</a></span>
+                    <span><a href="#">...</a></span>
+                    <span><a href="#">47 </a></span>
+                    <a href="#" class="pagination--arrow"><img src="img/arrow-right.svg" alt="Дальше"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content__structure-feedback__form mb-5">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="feedback__form-title">
+                  Оставьте свой отзыв
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4">
+                <input type="text" value="Введите имя" class="content__structure-subscribe-form-email sidebar__subscribe--input-email feedback__form">
+              </div>
+              <div class="col-sm-4">
+                <input type="text" value="Email" class="content__structure-subscribe-form-email sidebar__subscribe--input-email feedback__form">
+              </div>
+              <div class="col-sm-4">
+                <input type="text" value="Отзыв на" class="content__structure-subscribe-form-email sidebar__subscribe--input-email feedback__form">
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-12">
+                <textarea name="text__feedback" id="text__feedback" cols="10" rows="2" value="Текст отзыва"></textarea>
+                <div class="content__structure-subscribe-check">
+                  <input type="checkbox" id="personal_license"><label for="personal_license">Я согласен/-на на обработку персональных данных и рассылку рекламной информации в соответствии с условиями, указанными по <a href="#">ссылке</a></label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <button class="button__dark button--feedback--send">Отправить</button>
+              </div>
+            </div>
+          </div>
+
+        <div class="content__structure-instagram mt-5"> 
+          <div class="content__structure-instagram-title">
+            Все самое интересное в моем INSTAGRAM
+          </div>
+          <div class="content__structure-instagram-script">
+            <img srcset="img/inst.jpg 1x, img/inst@2x.jpg 2x" src="img/inst.jpg">
+          </div>
+          <div class="content__structure-instagram-mobile-script">
+            <img srcset="img/inst_m.jpg 1x, img/inst_m@2x.jpg 2x" src="img/inst.jpg">
+          </div>
+        </div>
+
+      </div>
+
+
+
+      <footer class="footer">
+        <div class="footer__logos">
+          <div class="footer__logos-first">
+            <img src="img/forbes_logo.svg" alt="Forbes">
+            <img src="img/bazaar_logo.svg" alt="Bazaar">
+            <img src="img/snc_logo.svg" alt="SNC">
+            <img src="img/grazia_logo.svg" alt="Grazia">
+            <img src="img/cosmopolitan_logo.svg" alt="Cosmopolitan">
+          </div>
+          <div class="footer__logos-second">
+            <img src="img/instyle_logo.svg" alt="InStyle">
+            <img src="img/people_talk_logo.svg" alt="PeopleTalk">
+            <img src="img/beauty_hack_logo.svg" alt="BeautyHack">
+            <img src="img/glamour_logo.svg" alt="Glamour">
+          </div>
+        </div>
+
+        <div class="mobile__footer__logos">
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/forbes_logo.svg" alt="Forbes">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/cosmopolitan_logo.svg" alt="Cosmopolitan">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/instyle_logo.svg" alt="InStyle">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/people_talk_logo.svg" alt="PeopleTalk">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/glamour_logo.svg" alt="Glamour">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/snc_logo.svg" alt="SNC">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/bazaar_logo.svg" alt="Bazaar">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/grazia_logo.svg" alt="Grazia">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/beauty_hack_logo.svg" alt="BeautyHack">
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__press-link">
+          <a href="#">Пресса о Школе Шопинга</a>
+        </div>
+        <div class="footer__copyright">
+          © Школа Шопинга. Все права защищены. Товарный знак зарегистрирован в РОСПАТЕНТе.<br>
+          По всем вопросам обращайтесь <a href="mailto:tt@shoppingschool.ru">tt@shoppingschool.ru</a><br>
+          © 2003-2019
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/spoiler.js"></script>
+    <script src="js/popup_feedback.js"></script>
+    <script src="js/mobile_menu.js"></script>
+  </body>
+</html>

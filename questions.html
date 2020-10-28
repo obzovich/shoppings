@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <title>Shopping School</title>
+  </head>
+  <body>
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-3 no-padding">
+      <div class="sidebar">
+        <a class="sidebar__logo" href="#">
+          <div class="sidebar__logo-top">Школа шопинга</div>
+          <div class="sidebar__logo-bottom">ShoppingsSchool</div>
+        </a>
+        <div class="sidebar__submenu">
+          <ul class="sidebar__submenu-list">
+            <li class="sidebar__submenu-list-item"><a href="#">Базовый курс</a></li>
+            <li class="sidebar__submenu-list-item"><a href="#">Продвинутый курс</a></li>
+            <li class="sidebar__submenu-list-item"><a href="#">Отдельные уроки</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__menu">
+          <ul class="sidebar__menu-list">
+            <li class="sidebar__menu-list-item"><a href="#">О школе</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Блог</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Пресса</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Отзывы и кейсы</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">F.A.Q.'s</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Smart.rich.b#tch</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__social">
+          <ul class="sidebar__social-list">
+            <li class="sidebar__social-list-item instagram__icon"><a href="#"><img src="img/inst.svg" alt="Instagram"></a></li>
+            <li class="sidebar__social-list-item email__icon"><a href="#"><img src="img/email.svg" alt="Instagram"></a></li>
+          </ul>
+        </div>
+        <div class="sidebar__subscribe">
+          <h3 class="sidebar__subscribe-title">Подписка</h3>
+          <div class="sidebar__subscribe-text">Оставьте ваш e-mail, чтобы получать наши новости</div>
+          <input type="text" class="sidebar__subscribe--input-email" value="Введите ваш email">
+          <button class="sidebar__subscribe-button button__dark">Подписаться</button>
+          <div class="sidebar__subscribe-license">
+            Нажимая кнопку "Подписаться", я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с <a href="#">условиями рассылки рекламной информации</a>
+          </div>
+        </div>
+      </div>
+
+       <div class="mobile__menu">
+        <div class="mobile__menu-button" id="mobile-menu-open">
+          <span class="mobile__menu-button--caption">меню</span>
+          <div class="mobile__menu-button-lines">
+            <div class="mobile__menu-button-line"></div>
+            <div class="mobile__menu-button-line"></div>
+            <div class="mobile__menu-button-line"></div>
+          </div>
+          <div class="mobile__menu-button-close">
+            <img src="img/cancel-menu.svg" alt="Close">
+          </div>
+        </div>
+        <div class="mobile__menu-search-input">
+          <input type="text" value="Введите запрос"><img src="img/cancel-menu.svg" class="close-menu-search">
+        </div>
+        <div class="mobile__menu-logo">
+          <div class="sidebar__logo-top">Школа шопинга</div>
+          <div class="sidebar__logo-bottom">ShoppingsSchool</div>
+        </div>
+        <div class="mobile__menu-search">
+          <img src="img/search.svg" alt="Search">
+        </div>
+      </div>
+
+      <div class="mobile__menu-open">
+          <div class="mobile__menu-content">
+          <div class="sidebar__submenu">
+            <ul class="sidebar__submenu-list">
+              <li class="sidebar__submenu-list-item"><a href="#">Базовый курс</a></li>
+              <li class="sidebar__submenu-list-item"><a href="#">Продвинутый курс</a></li>
+              <li class="sidebar__submenu-list-item"><a href="#">Отдельные уроки</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__menu">
+            <ul class="sidebar__menu-list">
+              <li class="sidebar__menu-list-item"><a href="#">О школе</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Блог</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Пресса</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Отзывы и кейсы</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">F.A.Q.'s</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Smart.rich.b#tch</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__social">
+            <ul class="sidebar__social-list">
+              <li class="sidebar__social-list-item instagram__icon"><a href="#"><img src="img/inst.svg" alt="Instagram"></a></li>
+              <li class="sidebar__social-list-item email__icon"><a href="javascript:PopUpShow()"><img src="img/email.svg" alt="Instagram"></a></li>
+            </ul>
+          </div>
+          <div class="sidebar__subscribe">
+            <h3 class="sidebar__subscribe-title">Подписка</h3>
+            <div class="sidebar__subscribe-text">Оставьте ваш e-mail, чтобы получать наши новости</div>
+            <input type="text" class="sidebar__subscribe--input-email" value="Введите ваш email">
+            <button class="sidebar__subscribe-button button__dark"><a href="javascript:PopUpShow()">Подписаться</a></button>
+            <div class="sidebar__subscribe-license">
+              Нажимая кнопку "Подписаться", я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с <a href="#">условиями рассылки рекламной информации</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-9 content no-padding">
+          <div class="submenu__intro">
+            <div class="submenu__intro-submenu">
+              <div class="submenu__intro-title">Вопросы</div>
+              <ul class="submenu__intro-list">
+                <li class="submenu__intro-list-item"></li>
+              </ul>
+            </div>
+            <div class="hero__submenu__search submenu__intro__search">
+              <input type="text" value="Поиск">
+              <img src="img/search_b.svg" alt="Найти">
+            </div>
+          </div>
+          <a class="intro__sales" href="#">
+              Финальные скидки. Купить 
+          </a>
+
+          <div class="submenu__intro--mobile">
+            <div class="submenu__intro-submenu">
+              <div class="submenu__intro-title">Вопросы</div>
+              <ul class="submenu__intro-list mobile-submenu__intro-list">
+                <li class="submenu__intro-list-item"><a href="#">Все вопросы</a></li>
+                <li class="submenu__intro-list-item submenu__intro--mobile-list-item-active"><a href="#">Базовый курс</a></li>
+                <li class="submenu__intro-list-item"><a href="#">Продвинутый курс</a></li>
+                <li class="submenu__intro-list-item"><a href="#">Отдельные уроки</a></li>
+              </ul>
+            </div>
+          </div>
+
+        <div class="content__structure">
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="content__structure-questions__filters">
+                <li><a href="#" class="questions__filters-item">Все вопросы</a></li>
+                <li><a href="#" class="questions__filters-item">Базовый курс</a></li>
+                <li><a href="#" class="questions__filters-item">Продвинутый курс</a></li>
+                <li><a href="#" class="questions__filters-item">Отдельные уроки</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="questions__item">
+                <span class="questions__item-question questions__item-question--1">
+                  Насколько эффективно учиться онлайн?
+                    <img src="img/arrow_bottom_question.svg" alt="down" id='arrow__question--1' class="question-arrow-down">
+                    <img src="img/arrow_high_question.svg" alt="up" class="question-arrow-up">
+                </span>
+                <div class="questions__item-answer" id="question-content--1">
+                  <p>Данный формат занятий отличается от очного одним-единственным и очень позитивным моментом - нам не мешают время и расстояния</p>
+                  <p>Вы будете учиться лично у меня, слышать и видеть меня и ВСЕ мои авторские обучающие материалы на экранах своих компьютеров и планшетов, выполнять потрясающие и эффективные упражнения и решать стильные задачки. А я буду проверять домашние задания и сопровождать вас в течение всего обучения</p>
+                  <p>И таким образом курс будет ЛИЧНО о вас, про вас и для вас!</p>
+                  <p>Уроки приходят в записи на ваш email, это НЕ вебинары. Во время занятий вы находитесь в привычной, комфортной обстановке у себя дома и сами выбираете время, в которое вам удобно пройти очередной онлайн-урок!</p>
+                  <p>Это обучение 21-го века, девочки! Я гарантирую вам его эффективность и результативность, потому что вложила душу и весь свой опыт и профессионализм в создание этой школы.</p>
+                  <p>Результат гарантирован при условии выполнения и предоставления мне для обратной связи всех домашних заданий.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="row">
+            <div class="col-sm-12">
+              <div class="questions__item">
+                <span class="questions__item-question questions__item-question--2">
+                  А вдруг у меня не получится?
+                  <img src="img/arrow_bottom_question.svg" alt="down" id='arrow__question--2' class="question-arrow-down">
+                  <img src="img/arrow_high_question.svg" alt="up" class="question-arrow-up">
+                </span>
+                <div class="questions__item-answer" id="question-content--2">
+                  <p>Данный формат занятий отличается от очного одним-единственным и очень позитивным моментом - нам не мешают время и расстояния</p>
+                  <p>Вы будете учиться лично у меня, слышать и видеть меня и ВСЕ мои авторские обучающие материалы на экранах своих компьютеров и планшетов, выполнять потрясающие и эффективные упражнения и решать стильные задачки. А я буду проверять домашние задания и сопровождать вас в течение всего обучения</p>
+                  <p>И таким образом курс будет ЛИЧНО о вас, про вас и для вас!</p>
+                  <p>Уроки приходят в записи на ваш email, это НЕ вебинары. Во время занятий вы находитесь в привычной, комфортной обстановке у себя дома и сами выбираете время, в которое вам удобно пройти очередной онлайн-урок!</p>
+                  <p>Это обучение 21-го века, девочки! Я гарантирую вам его эффективность и результативность, потому что вложила душу и весь свой опыт и профессионализм в создание этой школы.</p>
+                  <p>Результат гарантирован при условии выполнения и предоставления мне для обратной связи всех домашних заданий.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="questions__item">
+                <span class="questions__item-question questions__item-question--3">
+                  Сколько стоит обучение?
+                  <img src="img/arrow_bottom_question.svg" alt="down" id='arrow__question--3' class="question-arrow-down">
+                  <img src="img/arrow_high_question.svg" alt="up" class="question-arrow-up">
+                </span>
+                <div class="questions__item-answer" id="question-content--3">
+                  <p>Данный формат занятий отличается от очного одним-единственным и очень позитивным моментом - нам не мешают время и расстояния</p>
+                  <p>Вы будете учиться лично у меня, слышать и видеть меня и ВСЕ мои авторские обучающие материалы на экранах своих компьютеров и планшетов, выполнять потрясающие и эффективные упражнения и решать стильные задачки. А я буду проверять домашние задания и сопровождать вас в течение всего обучения</p>
+                  <p>И таким образом курс будет ЛИЧНО о вас, про вас и для вас!</p>
+                  <p>Уроки приходят в записи на ваш email, это НЕ вебинары. Во время занятий вы находитесь в привычной, комфортной обстановке у себя дома и сами выбираете время, в которое вам удобно пройти очередной онлайн-урок!</p>
+                  <p>Это обучение 21-го века, девочки! Я гарантирую вам его эффективность и результативность, потому что вложила душу и весь свой опыт и профессионализм в создание этой школы.</p>
+                  <p>Результат гарантирован при условии выполнения и предоставления мне для обратной связи всех домашних заданий.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="row">
+            <div class="col-sm-12">
+              <div class="questions__item">
+                <span class="questions__item-question questions__item-question--4">
+                  С какого курса начать обучение в школе шопинга?
+                  <img src="img/arrow_bottom_question.svg" alt="down" id='arrow__question--4' class="question-arrow-down">
+                  <img src="img/arrow_high_question.svg" alt="up" class="question-arrow-up">
+                </span>
+                <div class="questions__item-answer" id="question-content--4">
+                  <p>Данный формат занятий отличается от очного одним-единственным и очень позитивным моментом - нам не мешают время и расстояния</p>
+                  <p>Вы будете учиться лично у меня, слышать и видеть меня и ВСЕ мои авторские обучающие материалы на экранах своих компьютеров и планшетов, выполнять потрясающие и эффективные упражнения и решать стильные задачки. А я буду проверять домашние задания и сопровождать вас в течение всего обучения</p>
+                  <p>И таким образом курс будет ЛИЧНО о вас, про вас и для вас!</p>
+                  <p>Уроки приходят в записи на ваш email, это НЕ вебинары. Во время занятий вы находитесь в привычной, комфортной обстановке у себя дома и сами выбираете время, в которое вам удобно пройти очередной онлайн-урок!</p>
+                  <p>Это обучение 21-го века, девочки! Я гарантирую вам его эффективность и результативность, потому что вложила душу и весь свой опыт и профессионализм в создание этой школы.</p>
+                  <p>Результат гарантирован при условии выполнения и предоставления мне для обратной связи всех домашних заданий.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div class="row">
+            <div class="col-sm-12">
+              <div class="questions__item">
+                <span class="questions__item-question questions__item-question--5">
+                  Почему так дорого?
+                  <img src="img/arrow_bottom_question.svg" alt="down" id='arrow__question--5' class="question-arrow-down">
+                  <img src="img/arrow_high_question.svg" alt="up" class="question-arrow-up">
+                </span>
+                <div class="questions__item-answer" id="question-content--5">
+                  <p>Данный формат занятий отличается от очного одним-единственным и очень позитивным моментом - нам не мешают время и расстояния</p>
+                  <p>Вы будете учиться лично у меня, слышать и видеть меня и ВСЕ мои авторские обучающие материалы на экранах своих компьютеров и планшетов, выполнять потрясающие и эффективные упражнения и решать стильные задачки. А я буду проверять домашние задания и сопровождать вас в течение всего обучения</p>
+                  <p>И таким образом курс будет ЛИЧНО о вас, про вас и для вас!</p>
+                  <p>Уроки приходят в записи на ваш email, это НЕ вебинары. Во время занятий вы находитесь в привычной, комфортной обстановке у себя дома и сами выбираете время, в которое вам удобно пройти очередной онлайн-урок!</p>
+                  <p>Это обучение 21-го века, девочки! Я гарантирую вам его эффективность и результативность, потому что вложила душу и весь свой опыт и профессионализм в создание этой школы.</p>
+                  <p>Результат гарантирован при условии выполнения и предоставления мне для обратной связи всех домашних заданий.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="questions__item">
+                <span class="questions__item-question questions__item-question--6">
+                  Насколько эффективно учиться онлайн?
+                  <img src="img/arrow_bottom_question.svg" alt="down" id='arrow__question--6' class="question-arrow-down">
+                  <img src="img/arrow_high_question.svg" alt="up" class="question-arrow-up">
+                </span>
+                <div class="questions__item-answer" id="question-content--6">
+                  <p>Данный формат занятий отличается от очного одним-единственным и очень позитивным моментом - нам не мешают время и расстояния</p>
+                  <p>Вы будете учиться лично у меня, слышать и видеть меня и ВСЕ мои авторские обучающие материалы на экранах своих компьютеров и планшетов, выполнять потрясающие и эффективные упражнения и решать стильные задачки. А я буду проверять домашние задания и сопровождать вас в течение всего обучения</p>
+                  <p>И таким образом курс будет ЛИЧНО о вас, про вас и для вас!</p>
+                  <p>Уроки приходят в записи на ваш email, это НЕ вебинары. Во время занятий вы находитесь в привычной, комфортной обстановке у себя дома и сами выбираете время, в которое вам удобно пройти очередной онлайн-урок!</p>
+                  <p>Это обучение 21-го века, девочки! Я гарантирую вам его эффективность и результативность, потому что вложила душу и весь свой опыт и профессионализм в создание этой школы.</p>
+                  <p>Результат гарантирован при условии выполнения и предоставления мне для обратной связи всех домашних заданий.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="questions__item">
+                <span class="questions__item-question questions__item-question--7">
+                  Это теория и общая информация?
+                  <img src="img/arrow_bottom_question.svg" alt="down" id='arrow__question--7' class="question-arrow-down">
+                  <img src="img/arrow_high_question.svg" alt="up" class="question-arrow-up">
+                </span>
+                <div class="questions__item-answer" id="question-content--7">
+                  <p>Данный формат занятий отличается от очного одним-единственным и очень позитивным моментом - нам не мешают время и расстояния</p>
+                  <p>Вы будете учиться лично у меня, слышать и видеть меня и ВСЕ мои авторские обучающие материалы на экранах своих компьютеров и планшетов, выполнять потрясающие и эффективные упражнения и решать стильные задачки. А я буду проверять домашние задания и сопровождать вас в течение всего обучения</p>
+                  <p>И таким образом курс будет ЛИЧНО о вас, про вас и для вас!</p>
+                  <p>Уроки приходят в записи на ваш email, это НЕ вебинары. Во время занятий вы находитесь в привычной, комфортной обстановке у себя дома и сами выбираете время, в которое вам удобно пройти очередной онлайн-урок!</p>
+                  <p>Это обучение 21-го века, девочки! Я гарантирую вам его эффективность и результативность, потому что вложила душу и весь свой опыт и профессионализм в создание этой школы.</p>
+                  <p>Результат гарантирован при условии выполнения и предоставления мне для обратной связи всех домашних заданий.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="questions__item">
+                <span class="questions__item-question questions__item-question--8">
+                  Какова продолжительность урока?
+                  <img src="img/arrow_bottom_question.svg" alt="down" id='arrow__question--8' class="question-arrow-down">
+                  <img src="img/arrow_high_question.svg" alt="up" class="question-arrow-up">
+                </span>
+                <div class="questions__item-answer" id="question-content--8">
+                  <p>Данный формат занятий отличается от очного одним-единственным и очень позитивным моментом - нам не мешают время и расстояния</p>
+                  <p>Вы будете учиться лично у меня, слышать и видеть меня и ВСЕ мои авторские обучающие материалы на экранах своих компьютеров и планшетов, выполнять потрясающие и эффективные упражнения и решать стильные задачки. А я буду проверять домашние задания и сопровождать вас в течение всего обучения</p>
+                  <p>И таким образом курс будет ЛИЧНО о вас, про вас и для вас!</p>
+                  <p>Уроки приходят в записи на ваш email, это НЕ вебинары. Во время занятий вы находитесь в привычной, комфортной обстановке у себя дома и сами выбираете время, в которое вам удобно пройти очередной онлайн-урок!</p>
+                  <p>Это обучение 21-го века, девочки! Я гарантирую вам его эффективность и результативность, потому что вложила душу и весь свой опыт и профессионализм в создание этой школы.</p>
+                  <p>Результат гарантирован при условии выполнения и предоставления мне для обратной связи всех домашних заданий.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="questions__item">
+                <span class="questions__item-question questions__item-question--9">
+                  Доступ к видео после курса закрывается?
+                  <img src="img/arrow_bottom_question.svg" alt="down" id='arrow__question--9' class="question-arrow-down">
+                  <img src="img/arrow_high_question.svg" alt="up" class="question-arrow-up">
+                </span>
+                <div class="questions__item-answer" id="question-content--9">
+                  <p>Данный формат занятий отличается от очного одним-единственным и очень позитивным моментом - нам не мешают время и расстояния</p>
+                  <p>Вы будете учиться лично у меня, слышать и видеть меня и ВСЕ мои авторские обучающие материалы на экранах своих компьютеров и планшетов, выполнять потрясающие и эффективные упражнения и решать стильные задачки. А я буду проверять домашние задания и сопровождать вас в течение всего обучения</p>
+                  <p>И таким образом курс будет ЛИЧНО о вас, про вас и для вас!</p>
+                  <p>Уроки приходят в записи на ваш email, это НЕ вебинары. Во время занятий вы находитесь в привычной, комфортной обстановке у себя дома и сами выбираете время, в которое вам удобно пройти очередной онлайн-урок!</p>
+                  <p>Это обучение 21-го века, девочки! Я гарантирую вам его эффективность и результативность, потому что вложила душу и весь свой опыт и профессионализм в создание этой школы.</p>
+                  <p>Результат гарантирован при условии выполнения и предоставления мне для обратной связи всех домашних заданий.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="questions__item">
+                <span class="questions__item-question questions__item-question--10">
+                  Сколько раз можно смотреть уроки?
+                  <img src="img/arrow_bottom_question.svg" alt="down" id='arrow__question--10' class="question-arrow-down">
+                  <img src="img/arrow_high_question.svg" alt="up" class="question-arrow-up">
+                </span>
+                <div class="questions__item-answer" id="question-content--10">
+                  <p>Данный формат занятий отличается от очного одним-единственным и очень позитивным моментом - нам не мешают время и расстояния</p>
+                  <p>Вы будете учиться лично у меня, слышать и видеть меня и ВСЕ мои авторские обучающие материалы на экранах своих компьютеров и планшетов, выполнять потрясающие и эффективные упражнения и решать стильные задачки. А я буду проверять домашние задания и сопровождать вас в течение всего обучения</p>
+                  <p>И таким образом курс будет ЛИЧНО о вас, про вас и для вас!</p>
+                  <p>Уроки приходят в записи на ваш email, это НЕ вебинары. Во время занятий вы находитесь в привычной, комфортной обстановке у себя дома и сами выбираете время, в которое вам удобно пройти очередной онлайн-урок!</p>
+                  <p>Это обучение 21-го века, девочки! Я гарантирую вам его эффективность и результативность, потому что вложила душу и весь свой опыт и профессионализм в создание этой школы.</p>
+                  <p>Результат гарантирован при условии выполнения и предоставления мне для обратной связи всех домашних заданий.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mt-5 mb-5">
+            <div class="col-sm-12">
+              <button class="button__light m-auto questions--more--button">Ещё вопросы</button>
+            </div>
+          </div>
+          
+        </div>
+
+
+        <footer class="footer">
+          <div class="footer__logos">
+            <div class="footer__logos-first">
+              <img src="img/forbes_logo.svg" alt="Forbes">
+              <img src="img/bazaar_logo.svg" alt="Bazaar">
+              <img src="img/snc_logo.svg" alt="SNC">
+              <img src="img/grazia_logo.svg" alt="Grazia">
+              <img src="img/cosmopolitan_logo.svg" alt="Cosmopolitan">
+            </div>
+            <div class="footer__logos-second">
+              <img src="img/instyle_logo.svg" alt="InStyle">
+              <img src="img/people_talk_logo.svg" alt="PeopleTalk">
+              <img src="img/beauty_hack_logo.svg" alt="BeautyHack">
+              <img src="img/glamour_logo.svg" alt="Glamour">
+            </div>
+          </div>
+
+          <div class="mobile__footer__logos">
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/forbes_logo.svg" alt="Forbes">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/cosmopolitan_logo.svg" alt="Cosmopolitan">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/instyle_logo.svg" alt="InStyle">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/people_talk_logo.svg" alt="PeopleTalk">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/glamour_logo.svg" alt="Glamour">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/snc_logo.svg" alt="SNC">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/bazaar_logo.svg" alt="Bazaar">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/grazia_logo.svg" alt="Grazia">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/beauty_hack_logo.svg" alt="BeautyHack">
+            </div>
+          </div>
+        </div>
+
+        
+          <div class="footer__press-link">
+            <a href="#">Пресса о Школе Шопинга</a>
+          </div>
+          <div class="footer__copyright">
+            © Школа Шопинга. Все права защищены. Товарный знак зарегистрирован в РОСПАТЕНТе.<br>
+            По всем вопросам обращайтесь <a href="mailto:tt@shoppingschool.ru">tt@shoppingschool.ru</a><br>
+            © 2003-2019
+          </div>
+        </footer>
+      </div>
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/spoiler.js"></script>
+    <script src="js/popup_feedback.js"></script>
+    <script src="js/mobile_menu.js"></script>
+  </body>
+</html>

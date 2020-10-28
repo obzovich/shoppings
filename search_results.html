@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <title>Shopping School</title>
+  </head>
+  <body>
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-3 no-padding">
+      <div class="sidebar">
+        <a class="sidebar__logo" href="#">
+          <div class="sidebar__logo-top">Школа шопинга</div>
+          <div class="sidebar__logo-bottom">ShoppingsSchool</div>
+        </a>
+        <div class="sidebar__submenu">
+          <ul class="sidebar__submenu-list">
+            <li class="sidebar__submenu-list-item"><a href="#">Базовый курс</a></li>
+            <li class="sidebar__submenu-list-item"><a href="#">Продвинутый курс</a></li>
+            <li class="sidebar__submenu-list-item"><a href="#">Отдельные уроки</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__menu">
+          <ul class="sidebar__menu-list">
+            <li class="sidebar__menu-list-item"><a href="#">О школе</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Блог</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Пресса</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Отзывы и кейсы</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">F.A.Q.'s</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Smart.rich.b#tch</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__social">
+          <ul class="sidebar__social-list">
+            <li class="sidebar__social-list-item instagram__icon"><a href="#"><img src="img/inst.svg" alt="Instagram"></a></li>
+            <li class="sidebar__social-list-item email__icon"><a href="#"><img src="img/email.svg" alt="Instagram"></a></li>
+          </ul>
+        </div>
+        <div class="sidebar__subscribe">
+          <h3 class="sidebar__subscribe-title">Подписка</h3>
+          <div class="sidebar__subscribe-text">Оставьте ваш e-mail, чтобы получать наши новости</div>
+          <input type="text" class="sidebar__subscribe--input-email" value="Введите ваш email">
+          <button class="sidebar__subscribe-button button__dark">Подписаться</button>
+          <div class="sidebar__subscribe-license">
+            Нажимая кнопку "Подписаться", я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с <a href="#">условиями рассылки рекламной информации</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile__menu">
+        <div class="mobile__menu-button" id="mobile-menu-open">
+          <span class="mobile__menu-button--caption">меню</span>
+          <div class="mobile__menu-button-lines">
+            <div class="mobile__menu-button-line"></div>
+            <div class="mobile__menu-button-line"></div>
+            <div class="mobile__menu-button-line"></div>
+          </div>
+          <div class="mobile__menu-button-close">
+            <img src="img/cancel-menu.svg" alt="Close">
+          </div>
+        </div>
+        <div class="mobile__menu-search-input">
+          <input type="text" value="Введите запрос"><img src="img/cancel-menu.svg" class="close-menu-search">
+        </div>
+        <div class="mobile__menu-logo">
+          <div class="sidebar__logo-top">Школа шопинга</div>
+          <div class="sidebar__logo-bottom">ShoppingsSchool</div>
+        </div>
+        <div class="mobile__menu-search">
+          <img src="img/search.svg" alt="Search">
+        </div>
+      </div>
+
+      <div class="mobile__menu-open">
+          <div class="mobile__menu-content">
+          <div class="sidebar__submenu">
+            <ul class="sidebar__submenu-list">
+              <li class="sidebar__submenu-list-item"><a href="#">Базовый курс</a></li>
+              <li class="sidebar__submenu-list-item"><a href="#">Продвинутый курс</a></li>
+              <li class="sidebar__submenu-list-item"><a href="#">Отдельные уроки</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__menu">
+            <ul class="sidebar__menu-list">
+              <li class="sidebar__menu-list-item"><a href="#">О школе</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Блог</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Пресса</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Отзывы и кейсы</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">F.A.Q.'s</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Smart.rich.b#tch</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__social">
+            <ul class="sidebar__social-list">
+              <li class="sidebar__social-list-item instagram__icon"><a href="#"><img src="img/inst.svg" alt="Instagram"></a></li>
+              <li class="sidebar__social-list-item email__icon"><a href="javascript:PopUpShow()"><img src="img/email.svg" alt="Instagram"></a></li>
+            </ul>
+          </div>
+          <div class="sidebar__subscribe">
+            <h3 class="sidebar__subscribe-title">Подписка</h3>
+            <div class="sidebar__subscribe-text">Оставьте ваш e-mail, чтобы получать наши новости</div>
+            <input type="text" class="sidebar__subscribe--input-email" value="Введите ваш email">
+            <button class="sidebar__subscribe-button button__dark"><a href="javascript:PopUpShow()">Подписаться</a></button>
+            <div class="sidebar__subscribe-license">
+              Нажимая кнопку "Подписаться", я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с <a href="#">условиями рассылки рекламной информации</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-9 content no-padding">
+          <div class="submenu__intro">
+            <div class="submenu__intro-submenu">
+              <div class="submenu__intro-title">Блог</div>
+              <ul class="submenu__intro-list">
+                <li class="submenu__intro-list-item"><a href="#">Новое</a></li>
+                <li class="submenu__intro-list-item"><a href="#">Популярное</a></li>
+              </ul>
+            </div>
+            <div class="hero__submenu__search submenu__intro__search">
+              <input type="text" value="Поиск">
+              <img src="img/search_b.svg" alt="Найти">
+            </div>
+          </div>
+          <a class="intro__sales" href="#">
+              Финальные скидки. Купить 
+          </a>
+
+
+      <div class="content__structure">
+
+        <div class="content__structure-filters mt-5">
+          <div class="row filters__title">
+            <a href="#" class="filters__title-hide all__categories" id="all__categories">
+              Все категории
+              <img src="img/filters_down.svg" alt="Раскрыть" id="all__categories_link" class="arrow_down">
+            </a>
+            <div class="filters__title-view">
+              <img src="img/3col_view.svg" alt="3 колонки">
+              <img src="img/2col_view.svg" alt="2 колонки">
+            </div>
+          </div>
+
+          <div class="filters__wrap" id="filters__wrap">
+            <div class="row filters__categories">
+              <div class="col-sm-3">
+                <a class="filters__type__link" href="#">Все категории</a>
+                <a class="filters__type__link" href="#">Психология стиля</a>
+              </div>
+              <div class="col-sm-3">
+                <a class="filters__type__link" href="#">Мода и насмотренность</a>
+                <a class="filters__type__link" href="#">Шопинг и гардероб</a>
+              </div>
+              <div class="col-sm-3">
+                <a class="filters__type__link" href="#">ICONS</a>
+              </div>
+              <div class="col-sm-3">
+                
+              </div>
+            </div>
+
+            <div class="row filters__tags">
+              <div class="btn-group btn-group-justified">
+                <div class="btn-group">
+                  <div class="col-sm-12">
+                    <ul>
+                      <li><a class="filters__tags-link" href="#">mass market</a></li>
+                      <li><a class="filters__tags-link" href="#">возраст</a></li>
+                      <li><a class="filters__tags-link" href="#">с чем носить</a></li>
+                      <li><a class="filters__tags-link" href="#">типажи</a></li>
+                      <li><a class="filters__tags-link" href="#">базовый гардероб</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="btn-group">
+                  <div class="col-sm-12">
+                    <ul>
+                      <li><a class="filters__tags-link" href="#">mass market</a></li>
+                      <li><a class="filters__tags-link" href="#">возраст</a></li>
+                      <li><a class="filters__tags-link" href="#">с чем носить</a></li>
+                      <li><a class="filters__tags-link" href="#">типажи</a></li>
+                      <li><a class="filters__tags-link" href="#">базовый гардероб</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="btn-group">
+                  <div class="col-sm-12">
+                    <ul>
+                      <li><a class="filters__tags-link" href="#">mass market</a></li>
+                      <li><a class="filters__tags-link" href="#">возраст</a></li>
+                      <li><a class="filters__tags-link" href="#">с чем носить</a></li>
+                      <li><a class="filters__tags-link" href="#">типажи</a></li>
+                      <li><a class="filters__tags-link" href="#">базовый гардероб</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="btn-group">
+                  <div class="col-sm-12">
+                    <ul>
+                      <li><a class="filters__tags-link" href="#">mass market</a></li>
+                      <li><a class="filters__tags-link" href="#">возраст</a></li>
+                      <li><a class="filters__tags-link" href="#">с чем носить</a></li>
+                      <li><a class="filters__tags-link" href="#">типажи</a></li>
+                      <li><a class="filters__tags-link" href="#">базовый гардероб</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="btn-group">
+                  <div class="col-sm-12">
+                    <ul>
+                      <li><a class="filters__tags-link" href="#">mass market</a></li>
+                      <li><a class="filters__tags-link" href="#">возраст</a></li>
+                      <li><a class="filters__tags-link" href="#">с чем носить</a></li>
+                      <li><a class="filters__tags-link" href="#">типажи</a></li>
+                      <li><a class="filters__tags-link" href="#">базовый гардероб</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          
+
+
+
+
+        </div>
+
+            <div class="row mt-4">
+              <div class="col-sm-6 narrow-padding-r">
+                <a class="blog__state-small blog__state-small--search--results" href="#">
+                  <div class="blog__state-small--wrap">
+                    <div class="blog__state-img blog__state-img-middle">
+                      <img srcset="img/popular_item.png 1x, img/popular_item@2x.png 2x" src="img/popular_item.png">
+                    </div>
+                    <div class="blog__state-content blog__state-content-middle">
+                      <div class="blog__state-category">
+                        Психология стиля
+                      </div>
+                      <div class="blog__state-name">
+                        Венеция: что положить в чемодан, где поесть, что посмотреть и что купить
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 narrow-padding-l">
+                <a class="blog__state-small blog__state-small--search--results" href="#">
+                  <div class="blog__state-small--wrap">
+                    <div class="blog__state-img blog__state-img-middle">
+                      <img srcset="img/middle_state_img.png 1x, img/middle_state_img@2x.png 2x" src="img/middle_state_img.png">
+                    </div>
+                    <div class="blog__state-content blog__state-content-middle">
+                      <div class="blog__state-category">
+                        Психология стиля
+                      </div>
+                      <div class="blog__state-name">
+                        Как ваш характер влияет на ваш стиль одежды
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-sm-6 narrow-padding-r">
+                <a class="blog__state-small blog__state-small--search--results" href="#">
+                  <div class="blog__state-small--wrap">
+                    <div class="blog__state-img blog__state-img-middle">
+                      <img srcset="img/popular_item.png 1x, img/popular_item@2x.png 2x" src="img/popular_item.png">
+                    </div>
+                    <div class="blog__state-content blog__state-content-middle">
+                      <div class="blog__state-category">
+                        Психология стиля
+                      </div>
+                      <div class="blog__state-name">
+                        Венеция: что положить в чемодан, где поесть, что посмотреть и что купить
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 narrow-padding-l">
+                <a class="blog__state-small blog__state-small--search--results" href="#">
+                  <div class="blog__state-small--wrap">
+                    <div class="blog__state-img blog__state-img-middle">
+                      <img srcset="img/middle_state_img.png 1x, img/middle_state_img@2x.png 2x" src="img/middle_state_img.png">
+                    </div>
+                    <div class="blog__state-content blog__state-content-middle">
+                      <div class="blog__state-category">
+                        Психология стиля
+                      </div>
+                      <div class="blog__state-name">
+                        Как ваш характер влияет на ваш стиль одежды
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-sm-6 narrow-padding-r">
+                <a class="blog__state-small blog__state-small--search--results" href="#">
+                  <div class="blog__state-small--wrap">
+                    <div class="blog__state-img blog__state-img-middle">
+                      <img srcset="img/popular_item.png 1x, img/popular_item@2x.png 2x" src="img/popular_item.png">
+                    </div>
+                    <div class="blog__state-content blog__state-content-middle">
+                      <div class="blog__state-category">
+                        Психология стиля
+                      </div>
+                      <div class="blog__state-name">
+                        Венеция: что положить в чемодан, где поесть, что посмотреть и что купить
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 narrow-padding-l">
+                <a class="blog__state-small blog__state-small--search--results" href="#">
+                    <div class="blog__state-small--wrap">
+                    <div class="blog__state-img blog__state-img-middle">
+                      <img srcset="img/middle_state_img.png 1x, img/middle_state_img@2x.png 2x" src="img/middle_state_img.png">
+                    </div>
+                    <div class="blog__state-content blog__state-content-middle">
+                      <div class="blog__state-category">
+                        Психология стиля
+                      </div>
+                      <div class="blog__state-name">
+                        Как ваш характер влияет на ваш стиль одежды
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          
+          <div class="row mt-5">
+              <button class="button__light m-auto">Показать все</button>
+          </div>
+        
+        <div class="content__structure-subscribe mb-5">
+          <div class="content__structure-subscribe-title">
+            Подпишись на рассылку Школы Шопинга
+          </div>
+          <div class="content__structure-subscribe-subtitle">
+            Получай новые статьи и бесплатные уроки первой!
+          </div>
+          <div class="content__structure-subscribe-form">
+            <input type="text" value="Введите ваш email" class="content__structure-subscribe-form-email sidebar__subscribe--input-email">
+            <button class="button__dark">Подписаться</button>
+          </div>
+          <div class="content__structure-subscribe-check">
+            <input type="checkbox" id="personal_license"><label for="personal_license">Я согласен/-на на обработку персональных данных и рассылку рекламной информации в соответствии с условиями, указанными по <a href="#">ссылке</a></label>
+          </div>
+        </div>
+      </div>
+
+
+      <footer class="footer">
+        <div class="footer__logos">
+          <div class="footer__logos-first">
+            <img src="img/forbes_logo.svg" alt="Forbes">
+            <img src="img/bazaar_logo.svg" alt="Bazaar">
+            <img src="img/snc_logo.svg" alt="SNC">
+            <img src="img/grazia_logo.svg" alt="Grazia">
+            <img src="img/cosmopolitan_logo.svg" alt="Cosmopolitan">
+          </div>
+          <div class="footer__logos-second">
+            <img src="img/instyle_logo.svg" alt="InStyle">
+            <img src="img/people_talk_logo.svg" alt="PeopleTalk">
+            <img src="img/beauty_hack_logo.svg" alt="BeautyHack">
+            <img src="img/glamour_logo.svg" alt="Glamour">
+          </div>
+        </div>
+        <div class="footer__press-link">
+          <a href="#">Пресса о Школе Шопинга</a>
+        </div>
+        <div class="footer__copyright">
+          © Школа Шопинга. Все права защищены. Товарный знак зарегистрирован в РОСПАТЕНТе.<br>
+          По всем вопросам обращайтесь <a href="mailto:tt@shoppingschool.ru">tt@shoppingschool.ru</a><br>
+          © 2003-2019
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/spoiler.js"></script>
+    <script src="js/popup_feedback.js"></script>
+    <script src="js/mobile_menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <title>Shopping School</title>
+  </head>
+  <body>
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-3 no-padding">
+      <div class="sidebar">
+        <a class="sidebar__logo" href="#">
+          <div class="sidebar__logo-top">Школа шопинга</div>
+          <div class="sidebar__logo-bottom">ShoppingsSchool</div>
+        </a>
+        <div class="sidebar__submenu">
+          <ul class="sidebar__submenu-list">
+            <li class="sidebar__submenu-list-item"><a href="#">Базовый курс</a></li>
+            <li class="sidebar__submenu-list-item"><a href="#">Продвинутый курс</a></li>
+            <li class="sidebar__submenu-list-item"><a href="#">Отдельные уроки</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__menu">
+          <ul class="sidebar__menu-list">
+            <li class="sidebar__menu-list-item"><a href="#">О школе</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Блог</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Пресса</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Отзывы и кейсы</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">F.A.Q.'s</a></li>
+            <li class="sidebar__menu-list-item"><a href="#">Smart.rich.b#tch</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__social">
+          <ul class="sidebar__social-list">
+            <li class="sidebar__social-list-item instagram__icon"><a href="#"><img src="img/inst.svg" alt="Instagram"></a></li>
+            <li class="sidebar__social-list-item email__icon"><a href="#"><img src="img/email.svg" alt="Instagram"></a></li>
+          </ul>
+        </div>
+        <div class="sidebar__subscribe">
+          <h3 class="sidebar__subscribe-title">Подписка</h3>
+          <div class="sidebar__subscribe-text">Оставьте ваш e-mail, чтобы получать наши новости</div>
+          <input type="text" class="sidebar__subscribe--input-email" value="Введите ваш email">
+          <button class="sidebar__subscribe-button button__dark">Подписаться</button>
+          <div class="sidebar__subscribe-license">
+            Нажимая кнопку "Подписаться", я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с <a href="#">условиями рассылки рекламной информации</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mobile__menu">
+        <div class="mobile__menu-button" id="mobile-menu-open">
+          <span class="mobile__menu-button--caption">меню</span>
+          <div class="mobile__menu-button-lines">
+            <div class="mobile__menu-button-line"></div>
+            <div class="mobile__menu-button-line"></div>
+            <div class="mobile__menu-button-line"></div>
+          </div>
+          <div class="mobile__menu-button-close">
+            <img src="img/cancel-menu.svg" alt="Close">
+          </div>
+        </div>
+        <div class="mobile__menu-search-input">
+          <input type="text" value="Введите запрос"><img src="img/cancel-menu.svg" class="close-menu-search">
+        </div>
+        <div class="mobile__menu-logo">
+          <div class="sidebar__logo-top">Школа шопинга</div>
+          <div class="sidebar__logo-bottom">ShoppingsSchool</div>
+        </div>
+        <div class="mobile__menu-search">
+          <img src="img/search.svg" alt="Search">
+        </div>
+      </div>
+
+      <div class="mobile__menu-open">
+          <div class="mobile__menu-content">
+          <div class="sidebar__submenu">
+            <ul class="sidebar__submenu-list">
+              <li class="sidebar__submenu-list-item"><a href="#">Базовый курс</a></li>
+              <li class="sidebar__submenu-list-item"><a href="#">Продвинутый курс</a></li>
+              <li class="sidebar__submenu-list-item"><a href="#">Отдельные уроки</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__menu">
+            <ul class="sidebar__menu-list">
+              <li class="sidebar__menu-list-item"><a href="#">О школе</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Блог</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Пресса</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Отзывы и кейсы</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">F.A.Q.'s</a></li>
+              <li class="sidebar__menu-list-item"><a href="#">Smart.rich.b#tch</a></li>
+            </ul>
+          </div>
+          <div class="sidebar__social">
+            <ul class="sidebar__social-list">
+              <li class="sidebar__social-list-item instagram__icon"><a href="#"><img src="img/inst.svg" alt="Instagram"></a></li>
+              <li class="sidebar__social-list-item email__icon"><a href="javascript:PopUpShow()"><img src="img/email.svg" alt="Instagram"></a></li>
+            </ul>
+          </div>
+          <div class="sidebar__subscribe">
+            <h3 class="sidebar__subscribe-title">Подписка</h3>
+            <div class="sidebar__subscribe-text">Оставьте ваш e-mail, чтобы получать наши новости</div>
+            <input type="text" class="sidebar__subscribe--input-email" value="Введите ваш email">
+            <button class="sidebar__subscribe-button button__dark"><a href="javascript:PopUpShow()">Подписаться</a></button>
+            <div class="sidebar__subscribe-license">
+              Нажимая кнопку "Подписаться", я соглашаюсь на обработку моих персональных данных и ознакомлен(а) с <a href="#">условиями рассылки рекламной информации</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-9 content no-padding">
+      <div class="content__wrapper-hero-img">
+        <div class="content__wrapper-hero">
+          <div class="hero__submenu">
+            <ul class="hero__submenu-list">
+              <li class="hero__submenu-list-item"><a href="#">О проекте</a></li>
+              <li class="hero__submenu-list-item"><a href="#">Об авторе</a></li>
+            </ul>
+            <div class="hero__submenu__search search__main__pages">
+              <input type="text" value="Поиск">
+              <img src="img/search.svg" alt="Найти">
+            </div>
+          </div>
+          <div class="content__hero-text">
+            <div class="content__hero-text-subtitle">
+              Онлайн школа
+            </div>
+            <div class="content__hero-text-title">
+              Школа имиджа и стиля для современных девушек
+            </div>
+            <div class="content__hero-text-about">
+              Меня зовут Татьяна Тимофеева и я работаю стилистом и персональным шоппером 15 лет. Я рада видеть вас на этом сайте, ведь здесь вас ждет самый популярный в России блог о создании идеального гардероба.
+            </div>
+          </div>
+          <a class="content__hero-play" href="#">
+            <span class="content__hero-play-icon"><i class="fas fa-play"></i></span>
+            <span class="content__hero-play-icon-mobile"><img src="img/play_mobile.svg" alt="Play"></span>
+             Смотреть видео о школе
+          </a>
+          <ul class="mobile__submenu-list">
+            <li class="mobile__submenu-list-item"><a href="#">О проекте</a></li>
+            <li class="mobile__submenu-list-item mobile-active"><a href="#" class="active">Об авторе</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content__structure">
+        
+        <div class="content__about-author">
+          <div class="content__about-author-avatar">
+            <img srcset="img/author_avatar.png 1x, img/author_avatar@2x.png 2x" src="img/author_avatar.png">
+          </div>
+          <div class="content__about-author-name">
+            Татьяна Тимофеева
+          </div>
+          <div class="content__about-author-regalies">
+            Российский стилист, предприниматель, основательница проекта «Школа Шопинга», колумнист ведущих глянцевых изданий.
+          </div>
+        </div>
+
+        <div class="content__main-text mb-5">
+          <p>Представьте, что вам каждый день нужно готовить яичницу?<p>
+          <p><span class="font-weight-bold">НО :) ...</span> Проблема в том, что вы не знаете, как выглядят яйца... Вчера вы готовили ее из помидоров. Сегодня попробовали сделать ее из теннисных мячиков. Завтра попробуете приготовить яичницу из мяса. Понятно без слов, на что похожа ваша яичница - на что угодно, кроме яичницы.</p>
+        </div>
+
+        <div class="content__main-text-columns">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="content__main-img main__img--left">
+                <img srcset="img/about_me_main_text.png 1x, img/about_me_main_text@2x.png 2x" src="img/about_me_main_text.png">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="content__main-text">
+                <p>Проблема в том, что вы не знаете, как выглядят яйца... Вчера вы готовили ее из помидоров. Сегодня попробовали сделать ее из теннисных мячиков. Завтра попробуете приготовить яичницу из мяса. Понятно без слов, на что похожа ваша яичница - на что угодно, кроме яичницы.<p>
+                <p>Логично бы было раз и навсегда разобраться в том, как выглядят яйца и перестать экспериментировать, раз из раза получая несъедобный результат. Дурацкая история, да?<p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="content__main-text-question">
+          <span class="font-weight-bold">Хотяяяя многие девушки годами не понимают, что им идет,<br> а что нет?</span>
+        </div>
+
+        <div class="content__main-text-columns">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="content__main-text">
+                Сочетаются эти цвета или нет?
+                Можно ли носить эту юбку с этой курткой, а эту сумку с этим платьем?
+                Какая стрижка и цвет волос вас украсят?
+                Как сделать так, чтобы все вещи в гардеробе сочетались, а покупки себя отрабатывали и использовались?
+                При этом эти девушки продолжают ходить в магазин и покупать вещи, из которых получается в итоге "шкаф полный, а носить нечего" и "как я могла это купить", и "выброшенные деньги".
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="content__main-img main__img--right">
+                <img srcset="img/about_me_main_text2.png 1x, img/about_me_main_text2@2x.png 2x" src="img/about_me_main_text2.png">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__main-text mt-5 mb-5">
+          Логичнее было бы разобраться в этих вопросах, ведь вы одеваетесь каждый день и эти знания вам действительно нужны каждый день. А потом уже тратить деньги и заполнять гардеробы:-)
+        </div>
+
+        <div class="content__youtube">
+          <div class="content__youtube-video">
+            <iframe width="100%" height="360" src="https://www.youtube.com/embed/FA-0RsZ4Ymg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="content__youtube-text">
+            <div class="content__youtube-text-title">
+              Татьяна Тимофеева в гостях у Страны FM
+            </div>
+            С чего всё начиналось, что такое гардероб-конструктор и чем в первую очередь стоит руководствоваться, отправляясь на шопинг
+          </div>
+        </div>
+        
+        <div class="content__main-text">
+          <p>Я создала Школу Шопинга 15 лет назад именно для того, чтобы современные девушки покупали только подходящие им вещи,  чувствовали себя в них комфортно, выглядели стильно и красиво каждый день. Это очень важная составляющая нашей жизни, поэтому я предлагаб вам стать стилистами для самих себя и развить хороший вкус в одежде.<p>
+          <p>Да-да, за 15 лет работы, я доказала больше 100 000 раз, что эту "мышцу" можно и нужно тренировать:-)</p>
+          <p>Начните с моих блогов на этом <a href="#">Сайте</a> и в <a href="#">Инстаграм</a>. А для действительно феноменальных результатов приходите учиться в мою <a href="#">Онлайн-школу</a><p>
+          <p>А для действительно феномальных результатов приходите учиться в мою онлайн-школу<p>
+        </div>
+
+        <div class="content__main-text-guarantee">
+          Результат гарантирован, потому что это <span class="font-weight-bold font-italic">индивидуальное обучение</span> у меня, с моей персональной обратной связью:-)
+        </div>
+
+        <div class="content__main-text">
+          Я буду рада помочь вам превратить ваш гардероб в идеальный, тот самый, в котором каждая вещь служит вам верой и правдой, украшает и радует вас, вселяя в вас невероятную уверенность и награждая вас бесконечной привлекательностью в любых обстоятельствах!
+        </div>
+
+        <div class="content__about__me-feedback mb-5">
+            <div class="content__lessons-title content__about__me-feedback">Отзывы клиентов</div>
+            <div class="content__about__me-feedback-slider">
+              <div class="owl-carousel owl-theme feedback-carousel">
+
+                <div class="item">
+                  <div class="feedback-carousel-item">
+                    <img srcset="img/feedback_slider_img.png 1x, img/feedback_slider_img@2x.png 2x" src="img/feedback_slider_img.png">
+                    <div class="lessons-carousel-item-name">
+                    <div class="lessons-carousel-item-name-course">Юлия Сайфуллина</div>
+                    Муж стал смотреть на меня так, как в тот день, когда мы с ним только познакомились 
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="item">
+                  <div class="feedback-carousel-item">
+                    <img srcset="img/feedback_slider_img.png 1x, img/feedback_slider_img@2x.png 2x" src="img/feedback_slider_img.png">
+                    <div class="lessons-carousel-item-name">
+                    <div class="lessons-carousel-item-name-course">Юлия Сайфуллина</div>
+                    Муж стал смотреть на меня так, как в тот день, когда мы с ним только познакомились 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <div class="feedback-carousel-item">
+                    <img srcset="img/feedback_slider_img.png 1x, img/feedback_slider_img@2x.png 2x" src="img/feedback_slider_img.png">
+                    <div class="lessons-carousel-item-name">
+                    <div class="lessons-carousel-item-name-course">Юлия Сайфуллина</div>
+                    Муж стал смотреть на меня так, как в тот день, когда мы с ним только познакомились 
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="feedback-carousel-button">
+              <button>все отзывы</button>
+            </div>
+          </div>
+          
+        <div class="content__structure-blog content__structure-blog--about-me">
+          <div class="content__structure-blog-title">
+            Блог
+          </div>
+          <div class="content__structure-blog-text">
+            Самый популярный в России блог о создании идеального гардероба, который я веду с любовью и профессионализмом, что, однажды попав в него, расстаться уже невозможно.
+          </div>
+          <div class="content__structure-blog-button">
+            <img src="img/blog_link.svg" alt="перейти">
+          </div>
+        </div>
+
+        <div class="content__structure-blog content__structure-online-school--about-me">
+          <div class="content__structure-blog-title">
+            Онлайн-школа
+          </div>
+          <div class="content__structure-blog-text">
+            Школа шопинга - это уникальный проект для современных женщин, которые хотят создать своими руками гардероб мечты, выглядеть стильно и безупречно и чувствовать себя комфортно каждый день!
+          </div>
+          <div class="content__structure-blog-button">
+            <img src="img/blog_link.svg" alt="перейти">
+          </div>
+        </div>
+          
+        
+        <div class="content__structure-subscribe content__structure-subscribe--about--me">
+          <div class="content__structure-subscribe-title">
+            Подпишись на рассылку Школы Шопинга
+          </div>
+          <div class="content__structure-subscribe-subtitle">
+            Получай новые статьи и бесплатные уроки первой!
+          </div>
+          <div class="content__structure-subscribe-form">
+            <input type="text" value="Введите ваш email" class="content__structure-subscribe-form-email sidebar__subscribe--input-email">
+            <button class="button__dark">Подписаться</button>
+          </div>
+          <div class="content__structure-subscribe-check">
+            <input type="checkbox" id="personal_license"><label for="personal_license">Я согласен/-на на обработку персональных данных и рассылку рекламной информации в соответствии с условиями, указанными по <a href="#">ссылке</a></label>
+          </div>
+        </div>
+      </div>
+<!-- second div class="content__structure" end -->
+      <div class="content__ad pb-5 mt-4">
+        <a href="#"><img srcset="img/ad2.png 1x, img/ad2@2x.png 2x" src="img/ad2.png"></a>
+      </div>
+
+      <div class="content__structure">
+        <div class="content__structure-instagram"> 
+          <div class="content__structure-instagram-title">
+            Все самое интересное в моем INSTAGRAM
+          </div>
+          <div class="content__structure-instagram-script">
+            <img srcset="img/inst.jpg 1x, img/inst@2x.jpg 2x" src="img/inst.jpg">
+          </div>
+          <div class="content__structure-instagram-mobile-script">
+            <img srcset="img/inst_m.jpg 1x, img/inst_m@2x.jpg 2x" src="img/inst.jpg">
+          </div>
+        </div>
+      </div>
+<!-- third div class="content__structure" end -->
+      <footer class="footer">
+        <div class="footer__logos">
+          <div class="footer__logos-first">
+            <img src="img/forbes_logo.svg" alt="Forbes">
+            <img src="img/bazaar_logo.svg" alt="Bazaar">
+            <img src="img/snc_logo.svg" alt="SNC">
+            <img src="img/grazia_logo.svg" alt="Grazia">
+            <img src="img/cosmopolitan_logo.svg" alt="Cosmopolitan">
+          </div>
+          <div class="footer__logos-second">
+            <img src="img/instyle_logo.svg" alt="InStyle">
+            <img src="img/people_talk_logo.svg" alt="PeopleTalk">
+            <img src="img/beauty_hack_logo.svg" alt="BeautyHack">
+            <img src="img/glamour_logo.svg" alt="Glamour">
+          </div>
+        </div>
+
+        <div class="mobile__footer__logos">
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/forbes_logo.svg" alt="Forbes">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/cosmopolitan_logo.svg" alt="Cosmopolitan">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/instyle_logo.svg" alt="InStyle">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/people_talk_logo.svg" alt="PeopleTalk">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/glamour_logo.svg" alt="Glamour">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/snc_logo.svg" alt="SNC">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/bazaar_logo.svg" alt="Bazaar">
+            </div>
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/grazia_logo.svg" alt="Grazia">
+            </div>
+          </div>
+          <div class="mobile__footer__logos-row">
+            <div class="mobile__footer__logos-img-wrap">
+              <img src="img/beauty_hack_logo.svg" alt="BeautyHack">
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__press-link">
+          <a href="#">Пресса о Школе Шопинга</a>
+        </div>
+        <div class="footer__copyright">
+          © Школа Шопинга. Все права защищены. Товарный знак зарегистрирован в РОСПАТЕНТе.<br>
+          По всем вопросам обращайтесь <a href="mailto:tt@shoppingschool.ru">tt@shoppingschool.ru</a><br>
+          © 2003-2019
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/popup_feedback.js"></script>
+    <script src="js/mobile_menu.js"></script>
+  </body>
+</html>
